@@ -1,1 +1,2 @@
 # python_gen_randomnum
+这是python numpy一个生成随机变量的常用公式模板
