@@ -1,0 +1,25 @@
+#import numpy as np
+
+"""  Numpy 生成随机数
+
+
+#1 生成一个规定起点、终点、步长的一维数组
+   np.linspace(start = 0, stop = 1, num = 11)
+
+#2 生成区间均匀分布整数
+  一维 np.random.uniform(1,10,5)
+  多维 np.random.uniform(1,10,(2,3))
+  
+#3 生成标准正态分布
+  一维 np.random.randn(5)
+  多维 np.random.randn(2,3)
+
+#4 生成正态分布
+  一维 np.random.normal(loc=2,scale=0.5,size=6)
+  多维 1) np.random.normal(loc=2,scale=0.5,size=(2,3))   loc是均值 scale是标准差
+       2)np.random.normal(loc=2,scale=0.5,size=6).reshape(2,3)
+  
+ Numpy 生成随机数 """
+
+
+
